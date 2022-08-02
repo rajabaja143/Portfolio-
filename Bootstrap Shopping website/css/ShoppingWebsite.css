@@ -1,0 +1,631 @@
+*{margin: 0;padding: 0;box-sizing: border-box;font-family:sans-serif;}
+body{
+  background-color: black;
+}
+.navbar{
+  z-index: 2;
+  position: fixed;
+  width: 100%;
+  background: rgba(0,0,0,0.6);
+
+}
+#btt:hover {
+  transform: scale(1.06) translateY(1px);
+  transition: all .4s;
+}
+.b-example-divider {
+  height: 3rem;
+  background-color: rgba(0, 0, 0, .1);
+  border: solid rgba(0, 0, 0, .15);
+  border-width: 1px 0;
+  box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
+}
+
+.bi {
+  vertical-align: -.125em;
+  fill: currentColor;
+}
+#best{
+  background-color: goldenrod;
+  color: white;
+}
+#best:hover{
+  background-color: white;
+  color: goldenrod;
+}
+.carousel .carousel-inner .carousel-item .carousel-caption h1{
+font-size: 4em;
+}
+#asd{
+  background-color: goldenrod;
+  color: white;
+  transition: .5s;
+  margin-left: 20px;
+  border-radius: 20px;
+}
+#asd:hover{
+  background-color: white;
+  color: goldenrod;
+}
+#top{
+  width: 40px;
+  height: 40px;
+  background-color:goldenrod ;
+  border-radius: 50%;
+  position: fixed;
+  right: 15px;
+  bottom: 15px;
+  text-align: center;
+  line-height: 40px;
+  color: white;
+  animation: bounce 1.5s ease infinite;
+}
+.carousel-item::before{
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: black;
+  opacity: .7;
+}
+.cicons{
+  color: goldenrod;
+  font-size: 4em;
+  transition: .5s;
+}
+.cicons:hover{
+  color: white;
+}
+
+.carousel-indicators [data-bs-target]{
+  background-color: goldenrod;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+
+.container .product{
+  margin-top: 100px;
+  text-align: center;
+  padding:20px;
+
+}
+.container .product h1{
+  font-family: 'Kaushan Script', cursive;
+}
+.container .product h2{
+  font-size: 2.5em;
+  color: goldenrod;
+  font-family: 'Kaushan Script', cursive;
+
+}
+.box .name h1{
+  font-family: 'Kaushan Script', cursive;
+
+}
+.box .name h2{
+  font-size: 2.5em;
+  color: goldenrod;
+  font-family: 'Kaushan Script', cursive;
+}
+.box{
+  margin-top: 5%;
+  margin-bottom: 5%;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+.box ul{
+  list-style: none;
+  cursor: pointer;
+}
+.box ul li{
+  float: left;
+  width: calc(100% / 4);
+  transition: 2s;
+  position: relative;
+}
+.box ul:hover li{
+  width: calc((100% - 800px) / 3);
+}
+.box ul li:hover{
+  width: 800px;
+}
+.box ul li a{
+  background-color: rgba(0,0,0,.8);
+  width: 100%;
+  color: #fff;
+  position: absolute;
+  left: 0;bottom: 10px;
+  text-align: center;
+  height: 250px;
+  font-size: 1.5em;
+  text-decoration: none;
+}
+.container .product h3{
+  color: goldenrod;
+    font-family: 'Kaushan Script', cursive;
+    font-size: 2.5em;
+}
+.container-fluid .row .col-12 h2{
+  color: goldenrod;
+    font-family: 'Kaushan Script', cursive;
+    font-size: 2.5em;
+}
+.bod .bad .col-md-4 button, .bil .bili .bila button{
+  transform: translateY(20px);
+  opacity: 0;
+  transition: 0.3s all;
+}
+.bil .bili .bila:hover button{
+  transform: translateY(0);
+  opacity: 1;
+}
+.bod .bad .col-md-4:hover button{
+  transform: translateY(0);
+  opacity: 1;
+}
+.bod .bad .col-md-4 h1{
+  transform: translateY(-20px);
+  opacity: 0;
+  transition: 0.3s all;
+}
+.bod .bad .col-md-4:hover h1{
+  transform: translateY(0);
+  opacity: 1;
+}
+.wrapper{
+  height: 68vh;
+  display: grid;
+}
+.wrapper .box{
+  width: 420px;
+  height: 530px;
+  background-color: white;
+  background: linear-gradient(35deg , goldenrod 20%, white 0%);
+  border-radius: 10px;
+  position: absolute;top:80px;right: 30px;
+  overflow: hidden;
+}
+.wrapper .box .form{
+  padding: 20px;
+  transition: 2s;
+}
+.wrapper .box .button-box{  
+  width: 220px;
+  margin: 35px auto;
+  border-radius: 40px;
+  box-shadow: 0 0 10px goldenrod ;
+  position: relative;
+
+}
+
+.wrapper .box .button-box .toggle-btn{
+  cursor: pointer;
+  padding: 8px 30px;
+  border: none;
+  outline: none;
+  background-color: transparent;
+  position: relative;
+}
+#btn{
+  width: 220px;
+  height: 4vh;
+  margin-bottom: 20px;
+  border-radius: 40px;
+  position: absolute;
+  left: 0;top: 0;
+  background-color:goldenrod; 
+  transition: 2s;
+}
+.wrapper .box .form .form-field{
+  width: 350px;
+  height: 35px;
+  margin: 20px;
+  background-color: transparent;
+  border:none;
+  border-bottom: 2px solid goldenrod;
+}
+.wrapper .box .form .ib{
+  display: grid;
+  place-items: center;
+}
+.wrapper .box .form .ib button{
+  width: 250px; height: 41px;
+  margin:  30px;
+  border-radius: 10px; 
+  font-size: 1em;
+  font-weight: 700;
+  transition: 1s;
+  background-color: transparent;
+  position: relative;
+  cursor: pointer;
+  overflow: hidden;
+  z-index: 1;
+  color: white;
+}
+.wrapper .box .form .ib button::before{
+  content: "";
+  width:250px ;
+  height:40px ;
+  transform: translateX(0);
+  position: absolute;
+  top: 0;left: 0;
+  border-radius: 2px; 
+  background-color: goldenrod;
+  transition:transform 2s;
+  z-index: -1;
+}
+.wrapper .box .form .ib button:hover::before{
+  transform: translateX(-250px);
+}
+.wrapper .box .form .ib button:hover{
+color: black;}
+
+.wrapper .box .form a{
+  text-decoration: none;
+  color:goldenrod;
+  font-weight: 900px;
+  text-align: center;
+
+}
+.wrapper .box .form .dont{
+  text-align: center;
+}
+.wrapper .box .form .log{
+  text-align: center;
+}
+.wrapper .box .form .icon {
+  color: white;
+  font-size: 2.4em;
+  margin-left: 80px;
+  padding-left: 15px;
+  cursor: pointer;
+}
+#ab{color:goldenrod ;
+  padding-left: 15px;}
+#a{
+  padding-right: 15px;
+}
+#signup{
+  right: 450px;
+}
+.shadow{
+  box-shadow: 0 0 15px gray;
+  cursor: pointer;
+}
+
+.container .name h1{
+
+font-family: 'Kaushan Script', cursive;
+}
+.container .name h2{
+  color: goldenrod;
+  font-family: 'Kaushan Script', cursive;
+  font-size: 2.5em;
+  }
+
+.container .row .col-md-6{
+position: relative;
+  flex-basis: 50%;
+}
+#colo{
+  color: goldenrod;
+}
+
+.container .row .col-md-6 .right1{
+  position: absolute;
+  top: 0;
+  left: 0;
+  transition: 1s;
+}
+.container .row .col-md-6{
+  flex-basis: 50%;
+  justify-content: center;
+}
+.container .row .col-md-6 .mt-5 span{
+  color: goldenrod;
+  font-size: 1.5em;
+}
+.container .row .col-md-6 .right2 img{
+  width: 500px;
+  height: 500px;
+cursor: pointer;
+transition: 2s;
+margin-left: 50px;
+}
+.container .row .col-md-6 .right1 img{
+width: 500px;cursor: pointer;margin-left: 50px;
+
+}
+
+.container .row .col-md-6:hover .right1{
+left: 5%;}
+/* Testimonial section start */
+.testimonials{
+  padding: 50px 100px;
+  width: 100%;
+  background-color: rgba(0,0,0,0.6);
+   position: relative;
+}
+.testimonials .video{
+  width: 100%;
+  height:100%;
+  object-fit: cover;
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: -2;
+}
+.testimonials .testimonials-info{
+  text-align: center;
+}
+.testimonials .testimonials-info .title{
+  font-family: 'Kaushan Script', cursive;
+  font-size: 2em;
+  color: white;
+}
+
+.testimonials .testimonials-info .sub-title{
+  font-family: 'Kaushan Script', cursive;
+  font-size: 2.5em;
+  color: goldenrod;
+  margin-bottom: 40px;
+}
+.testimonials .test{
+  height: 50vh;
+  position: relative;
+  overflow: hidden;
+}
+.testimonials .test .pp{
+  color: white;
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  width: 50%;
+  text-align: center;
+  display: block;
+  animation-duration: 20s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+  font-size:1.2em ;
+}.testimonials .test .p1 img{
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+.testimonials .test .p2 img{
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  margin-bottom: 10px;}
+.testimonials .test .p3 img{
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  margin-bottom: 10px;}
+.testimonials .icon1{
+  color: white;
+  margin: 10px;}
+.testimonials .icon1 #a{
+   cursor: pointer;
+   transition: 0.6s ease;}
+.testimonials .test .pp span{
+  color: goldenrod;
+  font-size: 2em;
+  font-weight: 900;}
+.testimonials .test .p1{
+  animation-name: ani1;}
+.testimonials .test .p2{
+  animation-name: ani2;}
+.testimonials .test .p3{
+  animation-name: ani3;}
+@keyframes ani1{
+  0%,8.3%{left:-100%;opacity:0;}
+  8.3%,25%{left:25%;opacity:1;}
+ 33.33%,100%{left:110%;opacity:0;} 
+}
+@keyframes ani2{
+  0%,33.33%{left:-100%;opacity:0;}
+  41.63%,58.29%{left:25%;opacity:1;}
+ 66.66%,100%{left:110%;opacity:0;} 
+}
+@keyframes ani3{
+  0%,66.66%{left:-100%;opacity:0;}
+  74.69%,91.62%{left:25%;opacity:1;}
+  100%{left:110%;opacity:0;} 
+}
+/* Testimonial section start */
+/* scrollbar section start */
+::-webkit-scrollbar{
+  width: 15px;
+}
+::-webkit-scrollbar-thumb{
+  width: 5px;
+  background-color: goldenrod;
+  border-radius: 15px;
+  transition: .5s;
+}
+::-webkit-scrollbar-thumb:hover{
+  background-color: dimgray;
+}
+::-webkit-scrollbar-track{
+  background-color: rgb(241, 237, 237);
+}
+/* scrollbar section end */
+.container .row .viki{
+  box-shadow: 0 0 10px gray;
+  border-radius: 5px;
+  padding: 0 35px;
+  transition:box-shadow .5s;
+}
+
+.yes .row {
+  height: 550px;
+}
+.container .row .viki:hover{
+  box-shadow:  0 0 10px goldenrod;
+} 
+#type{
+  font-family: 'Kaushan Script', cursive;
+
+}
+@media (max-width:2000px){
+  .testimonials .test .pp{
+    color: white;
+    position: absolute;
+    left: 50%;
+    width: 50%;
+    text-align: center;
+    display: block;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    font-size:1em ;
+  }
+}
+@media (max-width:1799px){
+  .carousel .carousel-inner .carousel-item .carousel-caption h1{
+    font-size: 3.5em;
+    margin-top: 100px;
+  }
+ 
+}
+@media (max-width:1500px){
+  .carousel .carousel-inner .carousel-item .carousel-caption h1{
+    font-size: 3em;
+    margin-top: 130px;
+
+  }
+}
+@media (max-width:1400px){
+  .testimonials .test .pp{
+    color: white;
+    position: absolute;
+    left: 50%;
+    width: 50%;
+    text-align: center;
+    display: block;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    font-size:1em ;
+  }
+}
+@media (max-width:1300px){
+  .testimonials .test .pp{
+    color: white;
+    position: absolute;
+    
+    left: 50%;
+    width: 50%;
+    text-align: center;
+    display: block;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    font-size:1em ;
+  }
+ 
+}
+@media (max-width:1199px){
+  .container .row .viki{
+    flex-basis: 100%;
+      justify-content: center;
+      transition: box-shadow .5s;
+    }
+    .container .row .viki:hover{
+      box-shadow:  0 0 10px goldenrod;
+    }
+    .carousel .carousel-inner .carousel-item .carousel-caption h1{
+      font-size: 3em;
+      margin-top: 180px;
+      }
+      .bil .bili .bila h2{
+        font-size: 1.5em;
+      }
+      .testimonials .test .pp{
+        color: white;
+        position: absolute;
+        top: 10%;
+        left: 50%;
+        width: 50%;
+        text-align: center;
+        display: block;
+        animation-duration: 20s;
+        animation-iteration-count: infinite;
+        animation-timing-function: ease-in-out;
+        font-size:1em ;
+      }
+}
+@media (max-width:1030px){
+  .testimonials .test .pp{
+    color: white;
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    width: 50%;
+    text-align: center;
+    display: block;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    font-size:1em ;
+  }
+  #waky{
+    font-size: .8em;
+  }
+  #wak{
+    font-size: 1em;
+  }
+  .bil .bili .bila h3{
+    font-size: 1.1em;
+  }
+  .bod .bad .col-md-4 h1{
+    font-size: 1.5em;
+  }
+}
+
+
+@media (max-width:768px){
+  .container .row .viki{
+    flex-basis: 100%;
+    transition: box-shadow .5s;
+    }
+    #type{
+      font-size: 1.2em;
+    }
+    .testimonials .test .pp{
+      color: white;
+      position: absolute;
+      top: 10%;
+      left: 50%;
+      width: 50%;
+      text-align: center;
+    }
+    .container-fluid .row .col-sm-12 {
+      flex-basis: 100%;
+      padding: 20px;
+      margin-bottom: 15%;
+      display: grid;
+      place-items: center;
+      justify-content: center;
+    }
+    .container-fluid .row .col-sm-12 p{
+      margin-top: 5%;
+      margin-left: 2%;
+      }
+      .bil .bili .bila{
+        margin-top:10%;
+        width: 100%;
+        height: 30%;
+      }
+      
+      .bil .bili .bila h2{
+        font-size: 1.5em;
+        margin-left: 500px;
+      }
+}
